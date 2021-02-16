@@ -1,6 +1,9 @@
 Attribute VB_Name = "Module1"
 Sub wallStreet()
 
+For Each ws In Worksheets
+ws.Activate
+
 'setup table for output
 Range("I1") = "Ticker"
 Range("J1") = "Yearly Change"
@@ -55,6 +58,8 @@ For i = 2 To nRows + 1
         'totalVolume = Cells(i, 7)
     End If
 Next i
+
+Next ws
 
 End Sub
 

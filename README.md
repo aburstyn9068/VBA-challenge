@@ -8,3 +8,5 @@ Additionally, the code display the ticker and value for the greatest % increase,
 The code will run for all sheets in the workbook.
 
 I included a .bas and .vbs file of the code because the Excel on my computer will only allow me to use the .bas file. I changed the extension on the .bas file to .vbs to create that version.
+
+It also includes screen shots of the output from code.
